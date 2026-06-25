@@ -84,22 +84,7 @@
       letter-spacing: 0.12em;
       color: var(--silver-bright);
     }
-    .nav-links {
-      display: flex;
-      gap: 2rem;
-      list-style: none;
-    }
-    .nav-links a {
-      text-decoration: none;
-      font-family: 'Barlow Condensed', sans-serif;
-      font-size: 0.78rem;
-      font-weight: 600;
-      letter-spacing: 0.16em;
-      text-transform: uppercase;
-      color: var(--silver);
-      transition: color 0.2s;
-    }
-    .nav-links a:hover { color: var(--white); }
+
 
     /* ── HERO IDENTITY ── */
     .hero {
@@ -301,10 +286,7 @@
       <img src="silver_squadron.png" alt="Silver Squadron Crest" />
       <span class="nav-wordmark">Silver Squadron</span>
     </div>
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#operations">Operations</a></li>
-    </ul>
+
   </nav>
 
   <!-- HERO -->
